@@ -1,8 +1,11 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.9"
   }
 }

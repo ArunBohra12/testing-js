@@ -68,7 +68,7 @@ const shoppingList = [
 
 describe("Arrays and iterables", function () {
   test("Arrays and sets", function () {
-    expect(shoppingList).tocontain("paper towels");
+    expect(shoppingList).toContain("paper towels");
     expect(new Set(shoppingList)).toContain("kleenex");
   });
 });
